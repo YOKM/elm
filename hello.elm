@@ -10,10 +10,10 @@ type Msg = Increment | Decrement
 update msg model =
   case msg of
     Increment ->
-      model + 5
+      model + 7
 
     Decrement ->
-      model - 3
+      model - 6
 
 view model =
   div []
